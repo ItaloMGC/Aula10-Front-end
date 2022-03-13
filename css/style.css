@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+div.bar-discount {
+  background: #1cd1b0;
+  padding: 10px;
+}
+
+div.bar-discount p {
+  color: #000000;
+  font-weight: bold;
+}
+
+header.super-herois {
+  background: #00669f;
+  padding: 20px;
+}
+
+header.super-herois h1 {
+  color: #000000;
+  font-size: 40px;
+}
+
+section.conteiner-pai {
+  display: flex;
+  gap: 80px;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+section div.card {
+  width: 100%;
+  position: relative;
+  width: 374px;
+  height: 600px;
+  border-radius: 30px;
+  background: #f3f3f3;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 80px;
+}
+
+p.description {
+  text-align: center;
+  margin: 10px;
+}
+
+button {
+  text-align: center;
+  justify-content: center;
+  width: 150px;
+  height: 55px;
+  background-color: #00669f;
+  padding: 20px;
+  color: #f3f3f3;
+  font-size: 16px;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.backgound {
+}
+
+img.hero {
+  border-radius: 100%;
+  position: absolute;
+  left: 130px;
+  top: 150px;
+}
+
+img.fav {
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+footer {
+    background-color: #00669F;
+    padding: 20px;
+    color: #f3f3f3;
+}
