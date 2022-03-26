@@ -10,6 +10,9 @@
 div.bar-discount {
   background: #1cd1b0;
   padding: 10px;
+  height: 23px;
+  display: flex;
+  align-items: center;
 }
 
 div.bar-discount p {
@@ -18,12 +21,18 @@ div.bar-discount p {
 }
 
 header.super-herois {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   background: #00669f;
   padding: 20px;
+  height: 80px;
+  
 }
 
 header.super-herois h1 {
-  color: #000000;
+  
+  color: #ffffff;
   font-size: 40px;
 }
 
@@ -32,6 +41,8 @@ section.conteiner-pai {
   gap: 80px;
   justify-content: space-around;
   padding: 50px;
+  margin: 17px;
+  
 }
 
 section div.card {
@@ -68,9 +79,6 @@ button {
   margin-right: auto;
 }
 
-img.backgound {
-}
-
 img.hero {
   border-radius: 100%;
   position: absolute;
@@ -88,4 +96,43 @@ footer {
     background-color: #00669F;
     padding: 20px;
     color: #f3f3f3;
+    text-align: center;
+}
+
+nav {
+
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 25px;
+  width: 1860px;
+  height: 40px;
+  justify-content:right;
+
+}
+
+a {
+
+  color: #f3f3f3;
+  text-decoration: none;
+
+}
+
+.options {
+
+  background-color: #001D2D;
+  box-shadow: 2px 2px 2px #000000;
+
+}
+
+button.circle-button {
+  position: fixed;
+  border-radius: 100%;
+  border: #000000;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  background: #00669f;
+  margin-left: 90vw;
+  margin-top: 40vh;
 }

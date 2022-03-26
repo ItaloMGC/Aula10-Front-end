@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+}
+
+div.bar-discount {
+  background: #1cd1b0;
+  padding: 10px;
+  height: 23px;
+  display: flex;
+  align-items: center;
+}
+
+div.bar-discount p {
+  color: #000000;
+  font-weight: bold;
+}
+
+header.super-herois {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #00669f;
+  padding: 20px;
+  height: 80px;
+  
+}
+
+header.super-herois h1 {
+  
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.container-pai {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 787px;
+    
+}
+
+.bio-arleq {
+
+    background-color: #ffffff;
+    display: flex;
+    align-items:center;
+    justify-content:end;
+    flex-direction: column;
+    width: 546px;
+    height: 456px;
+    border-radius: 45px;
+    gap: 30px;
+
+
+
+}
+
+img.hero {
+    border-radius: 100%;
+    left: 870px;
+    top: 180px;
+    position: absolute;
+    width: 159px;
+    height: 159px;
+  }
+
+  img.fav {
+    left: 720px;
+    top: 340px;
+    position: absolute;
+    color: #FB0400;
+  }
+
+  .botao {
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #2C0187;
+      width: 546px;
+      height: 87px;
+      display: flex;
+      align-items: center;
+      justify-content:center;
+      border-radius: 0px 0px 45px 45px;
+      border: #2C0187;
+margin-top: 20px;
+
+  }
+  a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+.description {
+  
+    font-weight:900;
+    width: 500px;
+    height: 158px;
+    line-height: 20px;
+    
+
+
+}
+
+body {
+  background-image: url('../img/bg\ 1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+
+
+}
+
+h2 {
+  color: #2C0187;
+  width: 192px;
+  height: 40px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-size: 32px;
+  left: 200px;
+  display: flex;
+  justify-content: center;
+  
+
+}
+
+footer {
+    background-color: #00669F;
+    padding: 14px;
+    color: #f3f3f3;
+    text-align: center;}

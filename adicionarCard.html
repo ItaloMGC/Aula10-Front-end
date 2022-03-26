@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/cadastroCard.css">
+    <title>Adicionar Card</title>
+  </head>
+  <body>
+    <div class="bar-discount">
+      <p>20% de descontos em todos os produtos!</p>
+    </div>
+
+    <header class="super-herois">
+      <img src="img/logo.svg" alt="" />
+      <h1>Compre aqui seu card de Super Heróis!</h1>
+    </header>
+
+    <nav class="menu">
+      <a href="contato.html">Contato</a>
+      <a href="registro.html">Registrar</a>
+      <a href="login.html">Ingressar</a>
+    </nav>
+
+    <div class="adicionarCard">
+      <h1>Adicione seu super herói!</h1>
+      <p>Adicione seu personagem favorito completando as informações abaixo</p>
+
+      <form action="">
+        <div class="left">
+          <div>
+            <label for="nome">*Nome </label>
+            <input type="text" name="nome" id="nome" required />
+          </div>
+          <div>
+            <label for="">Data de Nascimento</label>
+            <input type="date" name="" id="">
+          </div>
+          <div>
+            <textarea name="" id="" rows="9" placeholder="Descrição"></textarea>
+          </div>
+        </div>
+        <div class="right">
+            <div>
+              <label for="">*Espécie</label>
+              <select name="especie" id="especie">
+                <optgroup label="Espécie">
+                  <option value="humano">Humano</option>
+                  <option value="animal">Animal</option>
+                  <option value="alien">Alien</option>     
+                  <option value="alien">Desconhecido</option>                
+                </optgroup>
+              </select>
+            </div>
+            <div>
+              <label for="">Adicionar Foto</label>
+              <input type="file" name="" id="">
+            </div>
+            <div class="checkboxes">
+              <div>
+                <label for="">Poderes</label>
+                <div>
+                  <input type="checkbox" name="" id=""> Voar <br>
+                  <input type="checkbox" name="" id=""> Super Inteligencia <br>
+                  <input type="checkbox" name="" id=""> Visão de raio laser <br> 
+                  <input type="checkbox" name="" id=""> Bilionário <br>
+                </div>
+              </div>
+            </div>
+            <div>
+               <label for="">Tipo de Personagem</label>
+                <div>
+                  <input type="radio" name="personagem" id="hero"> Herói/Heroína <br>
+                  <input type="radio" name="personagem" id="vilain"> Vilão/Vilã
+                </div>
+            </div>
+            
+        </div>
+        
+      </form>
+      <button type="submit">Adicionar</button>  
+      
+    </div>
+
+    
+
+    <footer>
+      <p>Todos os direitos reservados a Front-End I</p>
+    </footer>
+  </body>
+</html>
